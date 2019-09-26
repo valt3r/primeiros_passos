@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+    background-image: url(../img/fundo.png);
+    background-attachment: fixed;
+    /* deixo a imagem de fundo fixa */
+    background-repeat: repeat;
+    /* repete a imagem pelo fundo */
+}
+
+p {
+    color: gray;
+    background-color: rgb(0, 0, 0, 0.1);
+}
+/* todos os parágrafos do meu txt terão cor cinza */
+
+#primeiro-paragrafo {
+    text-align: left;
+    /* o texto terá orientação para a esquerda */
+    font-weight: bold;
+    /* negrito no texto */
+}
+/* para chamar um id uso # */
+.titulo {
+    color: orange;
+    text-transform: uppercase;
+    /* todo o texto terá letra maiscúla */
+}
+/* para chamar um class uso . */
+ul li {
+    font-style: italic;
+}
